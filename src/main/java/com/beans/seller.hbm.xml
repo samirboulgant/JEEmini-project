@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.beans.Seller" table="brikol.seller">
+		<id column="CodeUtilisateur" name="codeUtilisateur" type="java.lang.Integer" />
+		<property column="CIN" name="CIN" type="java.lang.String" />
+		<property column="PhotoProfil" name="photoProfil" type="string" />
+		<property column="CodeVille" name="codeVille" type="int"/>
+		<property column="CodeProfession" name="CodeProfession" type="int"/>
+		<property column="Information" name="information" type="string"/>
+		<property column="Telephone" name="tel" type="string"/>
+	</class>
+	
+</hibernate-mapping>

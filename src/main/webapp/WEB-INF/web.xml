@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app.xsd" version="4.0">
+  <display-name>JEE_mini_project</display-name>
+  
+   <welcome-file-list>  
+	  <welcome-file>Homepage</welcome-file>  
+  </welcome-file-list> 
+  
+  <filter>
+  		<filter-name>AuthFilter</filter-name>
+  		<filter-class>com.filters.Authentication</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  		<filter-name>AuthFilter</filter-name>
+  		<url-pattern>/Offers</url-pattern>
+  		<url-pattern>/Sellers</url-pattern>
+  		<url-pattern>/CreateSeller</url-pattern>
+  		<url-pattern>/SwitchToSeller</url-pattern>
+  		<url-pattern>/SwitchToBuyer</url-pattern>
+  		<url-pattern>/CreerOffre</url-pattern>
+  		<url-pattern>/ChatRoom</url-pattern>
+  		<url-pattern>/SellerProfile</url-pattern>
+  		<url-pattern>/EditSellerProfile</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter>
+  		<filter-name>BuyerFilter</filter-name>
+  		<filter-class>com.filters.BuyerFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  		<filter-name>BuyerFilter</filter-name>
+  		<url-pattern>/Offers</url-pattern>
+  		<url-pattern>/EditSellerProfile</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter>
+  		<filter-name>SellerFilter</filter-name>
+  		<filter-class>com.filters.SellerFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  		<filter-name>SellerFilter</filter-name>
+  		<url-pattern>/Sellers</url-pattern>
+  		<url-pattern>/CreateSeller</url-pattern>
+  		<url-pattern>/CreerOffre</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  		<filter-name>AdminFilter</filter-name>
+  		<filter-class>com.filters.AdminFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  		<filter-name>AdminFilter</filter-name>
+  		<url-pattern>/Admin/Dashboard</url-pattern>
+  		<url-pattern>/Admin/Offres</url-pattern>
+  		<url-pattern>/Admin/Users</url-pattern>
+  </filter-mapping>
+  
+  <error-page>
+    <error-code>404</error-code>               
+    <location>/404.jsp</location>    
+  </error-page>
+  
+  
+</web-app>

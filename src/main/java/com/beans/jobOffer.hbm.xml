@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.beans.JobOffer" table="brikol.offreemploi">
+		<id column="CodeOffre" name="code_offer" type="java.lang.Integer" />
+		<property column="Titre" name="title" type="string" />
+		<property column="Information" name="description" type="string" />
+		<property column="DateCreation" name="creation_date" type="timestamp" />
+		<property column="CodeUtilisateur" name="CodeUtilisateur" type="int" />
+		<property column="CodeVille" name="CodeVille" type="int" />
+		<property column="CodeProfession" name="CodeProfession" type="int" />
+	</class>
+	
+</hibernate-mapping>
+
+

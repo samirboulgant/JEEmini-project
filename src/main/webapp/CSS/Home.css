@@ -1,0 +1,137 @@
+ .u-section-1 {
+  background-image: url("IMAGES/pexels-photo-2556956.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 642px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 160px 176px 0 849px;
+}
+
+.u-section-1 .u-icon-1 {
+  color: rgb(17, 17, 17) !important;
+  margin-top: 1px;
+}
+
+.u-section-1 .u-table-1 {
+  width: 567px;
+  margin: 27px auto 0 85px;
+}
+
+.u-section-1 .u-table-entity-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-table-header-1 {
+  font-weight: 700;
+  background-image: none;
+}
+
+.u-section-1 .u-table-body-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-7 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-8 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-9 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-13 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-14 {
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-15 {
+  background-image: none;
+}
+
+.u-block-a82c-35 {
+  background-image: none;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 100vh;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 119px;
+    margin-right: 119px;
+    margin-left: 706px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: -30px;
+    margin-left: 97px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    border-style: solid;
+    letter-spacing: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: -358px 119px 60px auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 9px;
+    margin-left: 596px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: -53px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -287px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+    margin-left: 425px;
+  }
+
+  .u-section-1 .u-table-1 {
+    width: 540px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 225px;
+  }
+
+  .u-section-1 .u-table-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -402px;
+  }
+}

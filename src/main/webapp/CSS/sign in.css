@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.bg_blue_1{
+    background-color: #a5d1f4;
+    opacity: 2;
+}
+
+
+.cube_bottom{
+    right:2rem;
+    bottom: -2rem;
+}
+
+.password_input{
+    display: flex;
+    align-items: center;
+}
+
+.eye-password img{
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.password_input i {
+    /* margin-top: -12px; */
+    margin-left: -30px;
+    color:gray;
+    cursor: pointer;
+}

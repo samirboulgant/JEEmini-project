@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.beans.User" table="brikol.utilisateur">
+		<id column="CodeUtilisateur" name="user_code" type="java.lang.Integer" />
+		<property column="Nom" name="nom" type="java.lang.String" />
+		<property column="Prenom" name="prenom" type="string" />
+		<property column="Email" name="email" type="string"/>
+		<property column="MotDePasse" name="password" type="string"/>
+		<property column="DateInscrip" name="DateInscrip" type="string"/>
+		<property column="StatusAdmin" name="StatusAdmin" type="int"/>
+
+
+	</class>
+	
+</hibernate-mapping>

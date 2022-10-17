@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.beans.photosSeller" table="brikol.photosseller">
+		<id column="CodePhoto" name="CodePhotos" type="java.lang.Integer" />
+		<property column="PhotoPath" name="PhotoPath" type="string" />
+		<property column="CodeUtilisateur" name="CodeUtilisateur" type="int" />
+		
+	</class>
+	
+</hibernate-mapping>

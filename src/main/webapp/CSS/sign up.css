@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.signup_right {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.signup_left{
+    box-shadow: 5px 5px 10px gray;
+}
+
+.password_input{
+    display: flex;
+    align-items: center;
+}
+
+form i {
+    margin-top: -12px;
+    margin-left: -30px;
+    color:gray;
+    cursor: pointer;
+}
+
